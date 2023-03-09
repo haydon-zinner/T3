@@ -37,8 +37,8 @@ window.onload = function init() {
 	gl.enable(gl.DEPTH_TEST);
 
 	//Create Objects
-	caveModel = new ColladaParser("Assets/meshes/dark_cave.dae");
-	caveTexture = new TGAParser("Assets/textures/cave_texture.tga").texture;
+	caveModel = new ColladaParser("assets/meshes/dark_cave.dae");
+	caveTexture = new TGAParser("assets/textures/cave_texture.tga").texture;
 
 	//Create camera and event handler objects
 	camera = new Camera(vec3(-15.9, 12.1, -6.6), vec3(-0.9, 0.03, -0.3), vec3(0, 1, 0), 250,2.1);
